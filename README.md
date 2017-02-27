@@ -4,6 +4,7 @@ Data is collected and stored in an object array. You can preview screenshots to 
 How to use ?
 
 1. Add your username and password to script. You will need to login to use the scraper;
+
 casper.then(function () {
 
 	console.log("---------------------------------");
@@ -18,4 +19,5 @@ casper.then(function () {
 		this.capture('1AfterLogin.png');
 	});
 });
+
 2. run: casperjs casper-test.js
