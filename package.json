@@ -1,0 +1,17 @@
+{
+  "name": "phantomjs_tut",
+  "version": "1.0.0",
+  "description": "PhantomJS gettign started tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phantomjs",
+    "scraper",
+    "facebook",
+    "tutorial"
+  ],
+  "author": "KaiserMars",
+  "license": "ISC"
+}

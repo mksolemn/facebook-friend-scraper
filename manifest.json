@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "PhantomJS parallel tester",
+    "version": "3.0.0",
+    "description": "Test phantomjs",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["jquery-3.1.1.min.js","parallel-tester.js"],
+        "css": []
+    }],
+
+    "web_accessible_resources": [
+        "./*"
+    ],
+    "permissions": [
+        "<all_urls>",
+        "storage"
+    ]
+}
